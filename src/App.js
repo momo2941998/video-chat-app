@@ -13,7 +13,7 @@ import { CopyOutlined } from '@ant-design/icons';
 import Peer from 'simple-peer'
 import io from 'socket.io-client'
 
-const socket = io.connect('http://localhost:5000')
+const socket = io.connect(window.env.SOCKET_IO)
 
 function App() {
   const [me, setMe] = useState("")
@@ -106,6 +106,7 @@ function App() {
   const leaveCall = () => {
     setCallEnded(true)
     connectionRef.current.destroy()
+    window.open("/", "_self")
   }
 
   return (

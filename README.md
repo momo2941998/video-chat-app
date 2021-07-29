@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Setting environment
+creat file '.env' in the root of project, then add this
+```code
+SOCKET_IO={link_to_socketIO}
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
