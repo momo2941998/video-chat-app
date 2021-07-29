@@ -1,3 +1,3 @@
 window.env = {
-  "SOCKET_IO": "http://localhost:5000"
+  "SOCKET_IO": "https://signal-server-whofowhfow.herokuapp.com/"
 };
