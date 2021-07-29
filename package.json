@@ -20,7 +20,7 @@
   "scripts": {
     "dev": "react-dotenv && react-scripts start", 
     "build": "react-dotenv && react-scripts build", 
-    "start": "npm run build && PORT=3000 serve build", 
+    "start": "npm run build && serve build", 
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
